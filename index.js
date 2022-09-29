@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 app.post("/send-to-slack", (req, res) => {
   axios
     .post(
-      "https://hooks.slack.com/services/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",
+      "https://hooks.slack.com/services/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",
       {
         blocks: [
           {
